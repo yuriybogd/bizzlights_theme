@@ -19,8 +19,8 @@
 
     <div id="home">
 
-        <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a href="#" class="navbar-brand">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a href="index.html" class="navbar-brand">
                 <img src="/img/nuno.png" alt="Logo Nuno">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -61,15 +61,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
-
-        <div class="landing">
-            <div class="home-wrap">
-                <div class="home-inner">
-
-                </div>
-            </div>
-        </div>
+        </nav>
 
         <div class="caption text-center">
             <h1>
@@ -81,6 +73,48 @@
             <a href="#course" class="btn btn-outline-light btn-lg">
                 Get Started
             </a>
+        </div>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+
+            <ol class="carousel-indicators">
+                <li data-target="carouselExampleIndicators" data-slide-to="0" class="active">
+                </li>
+                <li data-target="carouselExampleIndicators" data-slide-to="1">
+                </li>
+                <li data-target="carouselExampleIndicators" data-slide-to="2">
+                </li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="background-image: url(../img/computers.png);">
+                    <!-- <div class="caption text-center">
+                        <h1>
+                            Welcome to Nuno
+                        </h1>
+                        <h3>
+                            Udemy Bootstrap 4 Course
+                        </h3>
+                        <a href="#course" class="btn btn-outline-light btn-lg">
+                            Get Started
+                        </a>
+                    </div> -->
+                </div>
+                <div class="carousel-item" style="background-image: url(../img/computers_1.png);">
+                </div>
+                <div class="carousel-item" style="background-image: url(../img/computers_2.png);">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+            </a>
+
         </div>
 
     </div>
@@ -323,7 +357,6 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="//node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
 </body>
 
 </html>
